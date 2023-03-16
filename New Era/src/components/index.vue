@@ -11,7 +11,7 @@ const count = ref(0)
 <template>
   <h1>{{ msg }}</h1>
   <div class="card">
-    <span>test</span>
+    <span class="read-the-docs">test</span>
   </div>
   <!--<div class="card">
     <button type="button" @click="count++">count is {{ count }}</button>
@@ -32,6 +32,7 @@ h1{
   color: #000;
 }
 .card{
-  color: #fff;
+  background-color: #3f3f3f;
+  border-radius: 10px;
 }
 </style>
